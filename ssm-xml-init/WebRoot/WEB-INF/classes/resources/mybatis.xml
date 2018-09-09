@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- 为实体类指定别名 -->
+	<typeAliases>
+		<package name="com.liuz.model"/>
+	</typeAliases>
+	<mappers>
+	<!-- 注册映射文件 -->
+	<!-- 这里需要注意：
+	这是第二种写法，名称随意，
+	<mappers>
+	<mapper resource="com/liuz/dao/CountryMapper.xml" />
+	</mappers> -->
+	
+	<package name="com.liuz.dao"/>
+	</mappers>
+
+</configuration>

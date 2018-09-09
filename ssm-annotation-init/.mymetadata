@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ssm-annotation-init"
+  id="myeclipse.1536408903170"
+  context-root="/ssm-annotation-init"
+  j2ee-spec="5.0"
+  archive="ssm-annotation-init.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
